@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1st Project</title>
+</head>
+	<body style="background: skyblue;">
+		<b style="background:burlywood;"> My Information</b>
+		<hr />
+		<ul style="color:darkcyan;font-size:15;font-family:verdana;">
+			<li><b>Name:-</b>MD MOHIUDDIN MURAD</li>
+			<li><b>Phone Number:-</b>01755085174</li>
+			<li><b>Study:-</b>BSc in CSE</li>
+			<li><b>EMAIL:</b>murad.my00@gmail.com</li>
+
+		</ul>
+		 <!--<pre style="font-size:15"><b><h4>My logo</h4></b></pre>-->             
+		<img src="Octicons-mark-github.svg.png" width="100px"
+		p><b>My Profile:-<a href="https://github.com/mohiuddinmurad00" target="blank">Click here</b></a></p>
+		<a href="https://www.facebook.com/mdmohiudden.murad/"target="blank"><button style="color:chocolate;">Find Out More About Me</button></a>
+
+		<!--<button <a href="http//:www.google.com";target="blank"style="color: blue;">
+		</a><b>more information</b></button>-->
+
+		<!--<p>
+			E=mc<sup>2</sup><br>
+			H<sub>2</sub>O
+		</p>
+		<p>
+			
+			<mark>Hightlight</mark> My text.<br>
+			<del>Delete</del> My text.
+		</p>-->
+		<br />
+		<!--<a href="Link2.html" target="blank">go to another link</a>-->
+		<br />
+		<!--<img src="img/ss.jpg"alt="No Location" width="100px" />-->
+		<br/>
+		<table border="3">
+			<tr>
+				<td colspan="2"><pre><b>       Information</b></pre></td>
+			</tr>
+			<tr>
+				<td><b>Name:</b></td>
+				<td>Mohiuddin Murad</td>
+			</tr>
+			<tr>
+				<td><b>University:</b></td>
+				<td>BUBT</td>
+			</tr>
+			<tr>
+				<td><b>College:</b></td>
+				<td>KMSC</td>
+			</tr>
+			<tr>
+				<td><b>School:</b></td>
+				<td>KBLHS</td>
+			</tr>
+		</table>
+		<br/>
+		<br/>
+		<form>
+			<span>Mobile number or email</span><br/>
+			<input type="text"/><br/>
+			<span>Password</span><br/>
+			<input type="password"/>
+			<br/>
+			<br/>
+			<input type="Submit" value="Log in">
+			<br/>
+			<br/>
+			<!--<pre><b>Birth Date:-</b></pre>-->
+			<span>Enter Your Age:-</span><br/>
+			<input type="number">
+			<br/>
+			<br/>
+			<span>Gender:-</span><br/>
+			<input type="radio" value="Male" name="Input">Male<br/>
+			<input type="radio" value="Female" name="Input">Female<br>
+			<input type="radio" value="Others" name="Input">Others<br>
+			<br/>
+			<br/>
+			<span>Year Of</span><br/>
+			<select>
+				<option>Please Select</option>
+				<option value="1"><li>2021</li></option>
+				<option value="2">2022</option>
+				<option value="3">2023</option>
+			</select>
+		</form>
+		<br/>
+		<br/>
+		<!--<div style="background:red">I am a Block Level Element</div>
+		<b style="background:greenyellow;">I Am An Inline Element</b>-->
+		<br/>
+		<br/>
+		<div id="ele">I am a Block Level Element</div>
+		<script type="text/javascript">
+			document.getElementById('ele').innerHTML = "Added By Javascript"
+		</script>
+		<input type="text">
+		<input type="password">
+		<input type="radio">
+		<input type="checkbox">
+		<input type="button">
+		<input type="color">
+		<input type="email">
+		<input type="file">
+		<input type="hidden">
+		<input type="image">
+		<input type="number">
+		<input type="range">
+		<input type="search">
+		<input type="tel">
+		<input type="time">
+		<input type="date">
+		<input type="detetime-local">
+		<input type="week">
+		<input type="month">
+		<input type="url">
+		<input type="Submit">
+		<input type="reset">
+		<input name="card-number" autocomplete="off">
+		<input type="file" accept=".jpg, .png">
+
+		<section>MM</section>
+
+		<div id="Country">
+			<ol>
+				<li>Bangladesh</li>
+				<li>Australia</li>
+				<li>Russia</li>
+				<li>India</li>
+			</ol>
+			
+		</div>
+
+		<button onclick="history.back()">
+			Go back
+		</button>
+
+	</body>
+</html>
+  
